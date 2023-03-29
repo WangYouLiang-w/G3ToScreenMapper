@@ -1,0 +1,103 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\wyl\\Desktop\\G3ToScreenMapper\\G3ToScreenMapper\\G3ToScreenMapper.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\wyl\\Desktop\\G3ToScreenMapper\\G3ToScreenMapper\\G3ToScreenMapper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\wyl\\Desktop\\G3ToScreenMapper\\G3ToScreenMapper\\G3ToScreenMapper.csproj",
+        "projectName": "G3ToScreenMapper",
+        "projectPath": "C:\\Users\\wyl\\Desktop\\G3ToScreenMapper\\G3ToScreenMapper\\G3ToScreenMapper.csproj",
+        "packagesPath": "C:\\Users\\wyl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\wyl\\Desktop\\G3ToScreenMapper\\G3ToScreenMapper\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\wyl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "MathNet.Numerics": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "MathNet.Numerics.Data.Matlab": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "OpenCvSharp4": {
+              "target": "Package",
+              "version": "[4.5.5.20211231, )"
+            },
+            "OpenCvSharp4.WpfExtensions": {
+              "target": "Package",
+              "version": "[4.5.5.20211231, )"
+            },
+            "OpenCvSharp4.runtime.win": {
+              "target": "Package",
+              "version": "[4.5.5.20211231, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.Windows.Extensions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Tobii.Glasses3.SDK": {
+              "target": "Package",
+              "version": "[0.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

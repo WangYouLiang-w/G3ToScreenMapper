@@ -1,0 +1,87 @@
+﻿<Window x:Class="G3ToScreenMapper.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="G3_EyeTrace" Height="450" Width="800" Loaded="WIndow_Loaded">
+
+    <Viewbox Stretch="Fill">
+
+        <Grid Width="1920" Height="1080">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="35"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <Border Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Background="GhostWhite" BorderBrush="Gainsboro" BorderThickness="1" >
+                <StackPanel x:Name="video" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Orientation="Horizontal" >
+                    <Button x:Name="_start" Content="START"  Margin="5,0,0,0" Click="_start_Click"/>
+                    <Button x:Name="_btnCalibrate" Content="Calibrate" Click="Button_Click_Calibrate" Margin="15,0,0,0"/>
+                    <Button x:Name="_btnRecoder" Content=" Recder " Click="Button_Click_Recoder" RenderTransformOrigin="0.33,0.877" Margin="15,0,0,0"/>
+                    <Button x:Name="_SendEyeData" Content=" S "  Margin="15,0,0,0" Width="28" Click="_SendEyeData_Click" />
+                </StackPanel>
+            </Border>
+
+
+            <Image Grid.Row="1" Grid.Column="0" x:Name ="_img" HorizontalAlignment="Left" VerticalAlignment="Top" Stretch="UniformToFill" Grid.ColumnSpan="2"/>
+            <Canvas Grid.Row="1" Grid.Column="0" x:Name="_markerCanvas" HorizontalAlignment="Left" VerticalAlignment="Top"  ></Canvas>
+            <Canvas Grid.Row="1" Grid.Column="0" x:Name="_gazeCanvas" HorizontalAlignment="Left" VerticalAlignment="Top"  >
+                <Ellipse x:Name="_gazeMarker" Width="25" Height="25" Fill="Red"></Ellipse>
+                <Ellipse x:Name="_gazeMarker2" Width="3" Height="3" Fill="Black"></Ellipse>
+            </Canvas>
+
+
+            <Image Grid.Row="2" Grid.Column="0" x:Name="_warpedImage" VerticalAlignment="Top"></Image>
+            <Canvas Grid.Row="2" Grid.Column="0" x:Name="_warpedCanvas" HorizontalAlignment="Left" VerticalAlignment="Top">
+                <Ellipse x:Name="_warpedGazeMarker" Width="25" Height="25" Fill="Blue"></Ellipse>
+                <Ellipse x:Name="_warpedGazeMarker2" Width="3" Height="3" Fill="Black"></Ellipse>
+            </Canvas>
+
+            <Image Grid.Row="2" Grid.Column="1" x:Name="_warped2Image" VerticalAlignment="Top"></Image>
+            <Canvas Grid.Row="2" Grid.Column="1" x:Name="_warped2Canvas" HorizontalAlignment="Left" VerticalAlignment="Top">
+                <Ellipse x:Name="_warped2GazeMarker" Width="25" Height="25" Fill="Green"></Ellipse>
+                <Ellipse x:Name="_warped2GazeMarker2" Width="3" Height="3" Fill="Black"></Ellipse>
+            </Canvas>
+
+
+            <Image Grid.Row="1" Grid.Column="1" x:Name="_HeatImage" VerticalAlignment="Top"></Image>
+            <Canvas Grid.Row="1" Grid.Column="1" x:Name="_HeatCanvas" HorizontalAlignment="Left" VerticalAlignment="Top">
+            </Canvas>
+
+
+            <!--<Border Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2"  Background="GhostWhite" BorderBrush="SkyBlue" BorderThickness="3">
+                -->
+            <!--<StackPanel Grid.Row="1" Grid.Column="1" Orientation="Horizontal">
+                    <DataGrid  x:Name="dataGrid1"  IsReadOnly="True" AutoGenerateColumns="False" RowDetailsVisibilityMode="Collapsed"  
+                     CanUserReorderColumns="False" CanUserSortColumns="False" CanUserResizeRows="False" Width="187" SelectionUnit="FullRow">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn x:Name="event_value" Header="value"  Binding ="{Binding event_value}" FontSize="22" Width="40" Foreground="Black"></DataGridTextColumn>
+                            <DataGridTextColumn x:Name="event_TimeStamp" Header="TimeStamp"  Binding ="{Binding event_TimeStamp}" FontSize="22" Width="*"></DataGridTextColumn>
+                        </DataGrid.Columns>
+
+
+
+                    </DataGrid>
+                    <DataGrid  x:Name="dataGrid2" IsReadOnly="True" AutoGenerateColumns="False" RowDetailsVisibilityMode="Collapsed"  
+                     CanUserReorderColumns="False" CanUserSortColumns="False" CanUserResizeRows="False" Width="257" Margin="10,0,0,0" Background="#FFECDFDF" BorderBrush="#FF111112">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="TimeStamp"  FontSize="22" Width="*" />
+                            <DataGridTextColumn Header="G32D"  FontSize="22" Width="*" />
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </StackPanel>-->
+            <!--
+            </Border>-->
+
+            <TextBox x:Name="address" Grid.Row="0" Grid.Column="1" FontSize="20" Margin="645,2,0,2"/>
+
+        </Grid>
+    </Viewbox>
+</Window>

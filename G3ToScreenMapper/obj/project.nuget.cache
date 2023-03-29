@@ -1,0 +1,492 @@
+{
+  "version": 2,
+  "dgSpecHash": "IpmHMmUcYFp2vb6HsyFArq4YGO6NDzbit/5pydLDMzALR955TBuDNQ135yyYFniezWjfFBB71FwUFLlKs4XbyQ==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\wyl\\Desktop\\G3ToScreenMapper\\G3ToScreenMapper\\G3ToScreenMapper.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\wyl\\.nuget\\packages\\mathnet.numerics\\5.0.0\\mathnet.numerics.5.0.0.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\mathnet.numerics.data.matlab\\5.0.0\\mathnet.numerics.data.matlab.5.0.0.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.1\\microsoft.netcore.platforms.1.1.1.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\opencvsharp4\\4.5.5.20211231\\opencvsharp4.4.5.5.20211231.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\opencvsharp4.runtime.win\\4.5.5.20211231\\opencvsharp4.runtime.win.4.5.5.20211231.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\opencvsharp4.wpfextensions\\4.5.5.20211231\\opencvsharp4.wpfextensions.4.5.5.20211231.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.2\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.2\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl\\4.3.2\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\runtime.native.system.net.http\\4.3.0\\runtime.native.system.net.http.4.3.0.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\runtime.native.system.security.cryptography.apple\\4.3.0\\runtime.native.system.security.cryptography.apple.4.3.0.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\runtime.native.system.security.cryptography.openssl\\4.3.2\\runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\runtime.opensuse.13.2-x64.runtime.native.system.security.cryptography.openssl\\4.3.2\\runtime.opensuse.13.2-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\runtime.opensuse.42.1-x64.runtime.native.system.security.cryptography.openssl\\4.3.2\\runtime.opensuse.42.1-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\runtime.osx.10.10-x64.runtime.native.system.security.cryptography.apple\\4.3.0\\runtime.osx.10.10-x64.runtime.native.system.security.cryptography.apple.4.3.0.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\runtime.osx.10.10-x64.runtime.native.system.security.cryptography.openssl\\4.3.2\\runtime.osx.10.10-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\runtime.rhel.7-x64.runtime.native.system.security.cryptography.openssl\\4.3.2\\runtime.rhel.7-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.2\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.2\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl\\4.3.2\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\system.collections.concurrent\\4.3.0\\system.collections.concurrent.4.3.0.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\system.diagnostics.debug\\4.3.0\\system.diagnostics.debug.4.3.0.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.3.0\\system.diagnostics.diagnosticsource.4.3.0.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\system.diagnostics.tracing\\4.3.0\\system.diagnostics.tracing.4.3.0.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\system.globalization\\4.3.0\\system.globalization.4.3.0.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\system.globalization.calendars\\4.3.0\\system.globalization.calendars.4.3.0.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\system.globalization.extensions\\4.3.0\\system.globalization.extensions.4.3.0.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\system.io.filesystem\\4.3.0\\system.io.filesystem.4.3.0.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\system.io.filesystem.primitives\\4.3.0\\system.io.filesystem.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\system.linq\\4.3.0\\system.linq.4.3.0.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\system.net.http\\4.3.4\\system.net.http.4.3.4.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\system.net.primitives\\4.3.0\\system.net.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\system.reactive\\5.0.0\\system.reactive.5.0.0.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\system.reflection.primitives\\4.3.0\\system.reflection.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\system.resources.resourcemanager\\4.3.0\\system.resources.resourcemanager.4.3.0.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\system.runtime.extensions\\4.3.0\\system.runtime.extensions.4.3.0.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\system.runtime.handles\\4.3.0\\system.runtime.handles.4.3.0.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\system.runtime.interopservices\\4.3.0\\system.runtime.interopservices.4.3.0.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\system.runtime.numerics\\4.3.0\\system.runtime.numerics.4.3.0.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\system.security.cryptography.algorithms\\4.3.0\\system.security.cryptography.algorithms.4.3.0.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\system.security.cryptography.cng\\4.3.0\\system.security.cryptography.cng.4.3.0.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\system.security.cryptography.csp\\4.3.0\\system.security.cryptography.csp.4.3.0.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\system.security.cryptography.encoding\\4.3.0\\system.security.cryptography.encoding.4.3.0.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\system.security.cryptography.openssl\\4.3.0\\system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\system.security.cryptography.primitives\\4.3.0\\system.security.cryptography.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\system.security.cryptography.x509certificates\\4.3.0\\system.security.cryptography.x509certificates.4.3.0.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\system.threading\\4.3.0\\system.threading.4.3.0.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\tobii.glasses3.sdk\\0.8.0\\tobii.glasses3.sdk.0.8.0.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\websocketsharper\\1.0.39\\websocketsharper.1.0.39.nupkg.sha512",
+    "C:\\Users\\wyl\\.nuget\\packages\\zeroconf\\3.6.11\\zeroconf.3.6.11.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "MathNet.Numerics"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "System.Drawing.Common"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "Microsoft.Win32.SystemEvents"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "OpenCvSharp4"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "System.Runtime.CompilerServices.Unsafe"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "System.Memory"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "Tobii.Glasses3.SDK"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "Microsoft.CSharp"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "Microsoft.Extensions.Logging.Abstractions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "System.Buffers"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "Newtonsoft.Json"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "System.Net.Http"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "Microsoft.NETCore.Platforms"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "runtime.native.System"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "Microsoft.NETCore.Targets"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "runtime.native.System.Net.Http"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "runtime.native.System.Security.Cryptography.OpenSsl"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "runtime.opensuse.13.2-x64.runtime.native.System.Security.Cryptography.OpenSsl"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "runtime.opensuse.42.1-x64.runtime.native.System.Security.Cryptography.OpenSsl"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.OpenSsl"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "runtime.rhel.7-x64.runtime.native.System.Security.Cryptography.OpenSsl"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "System.Collections"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "System.Diagnostics.Debug"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "System.Diagnostics.DiagnosticSource"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "System.Reflection"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "System.Reflection.Primitives"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "System.Diagnostics.Tracing"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "System.Globalization"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "System.Globalization.Extensions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "System.IO"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "System.IO.FileSystem"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "System.IO.FileSystem.Primitives"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "System.Net.Primitives"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "System.Resources.ResourceManager"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "System.Runtime"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "System.Runtime.Extensions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "System.Runtime.Handles"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "System.Runtime.InteropServices"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "System.Security.Cryptography.Algorithms"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "runtime.native.System.Security.Cryptography.Apple"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.Apple"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "System.Runtime.Numerics"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "System.Security.Cryptography.Encoding"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "System.Collections.Concurrent"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "System.Linq"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "System.Security.Cryptography.OpenSsl"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "System.Security.Cryptography.Primitives"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "System.Security.Cryptography.X509Certificates"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "System.Globalization.Calendars"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "System.Security.Cryptography.Cng"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "System.Security.Cryptography.Csp"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "System.Text.Encoding"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "System.Threading"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "System.Threading.Tasks"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "System.Threading.Tasks.Extensions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "WebSocketSharper"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "System.Reactive"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "Zeroconf"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "System.Reactive"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "OpenCvSharp4.runtime.win"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "OpenCvSharp4.WpfExtensions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "System.Windows.Extensions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages”不存在。",
+      "libraryId": "MathNet.Numerics.Data.Matlab"
+    }
+  ]
+}
